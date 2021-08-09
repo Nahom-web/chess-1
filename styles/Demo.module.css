@@ -1,0 +1,18 @@
+.board {
+    display: grid !important;
+    margin: auto;
+    grid-template-columns: repeat(8, 1fr);
+    grid-template-rows: repeat(8, 1fr);
+    width: 600px;
+    height: 600px;
+  }
+  
+  .board button {
+    border: none;
+    padding: 0;
+    background-size: cover;
+  }
+
+  .center {
+    text-align: center;
+  }

@@ -1,5 +1,6 @@
 import Head from 'next/head'
 import Image from 'next/image'
+import Board from '../components/Board'
 import styles from '../styles/Home.module.css'
 
 export default function Home() {
@@ -12,34 +13,7 @@ export default function Home() {
       </Head>
 
       <main className={styles.main}>
-        <h1 className={styles.title}>
-          Welcome to <a>Chess!</a>
-        </h1>
-
-        <p className={styles.description}>
-          Get started by{' '}
-          <code className={styles.code}>viewing a page</code>
-        </p>
-
-        <div className={styles.grid}>
-          <a href="http://localhost:3000/demo" className={styles.card}>
-            <h2>Demo</h2>
-            <p>Experience a demo of the Chess API.</p>
-          </a>
-
-          <a href="https://nextjs.org/learn" className={styles.card}>
-            <h2>Chess Engine</h2>
-            <p>Experience a demo of the Chess Engine API.</p>
-          </a>
-
-          <a
-            href="https://github.com/vercel/next.js/tree/master/examples"
-            className={styles.card}
-          >
-            <h2>Examples</h2>
-            <p>Discover useful features for the Chess API.</p>
-          </a>
-        </div>
+        <Board />
       </main>
 
       <footer className={styles.footer}>
