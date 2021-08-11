@@ -52,7 +52,6 @@ export default class Board extends Component {
                 />;
             }
         }
-
     }
 
     render() {
