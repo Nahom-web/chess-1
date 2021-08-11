@@ -17,7 +17,7 @@ export default class Board extends Component {
 
     setAsSelected = (e, selected, row, col) => {
         selected[row][col] = true;
-        console.log("attempted");
+        console.log("attempted.");
         console.table(selected);
         console.log(e);
     }
